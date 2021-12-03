@@ -10,7 +10,6 @@ from admin_states import Cases
 from sql_command_execution import sql_command
 from routing import routs_for_every_truck
 import ast
-import datetime
 from aiogram.utils.exceptions import BotBlocked, ChatNotFound, RetryAfter
 
 # Создаем Админ-бота

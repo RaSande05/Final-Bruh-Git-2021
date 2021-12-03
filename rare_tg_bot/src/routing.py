@@ -8,7 +8,7 @@ API_ROOT_ENDPOINT = 'https://courier.yandex.ru/vrs/api/v1'
 
 def get_rout_url(payload=None):
     """
-
+    Функция создает маршрут в картах
     :param payload: Тело запроса - в нем содержаться координаты точек которые надо посетить
     :return: ссылку на маршрут в картах
     """

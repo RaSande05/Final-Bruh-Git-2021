@@ -1,0 +1,3 @@
+"""Ключи для API"""
+API_KEY = '9adb6b1b-ea01-4a45-92e2-bc200713422a'
+API_KEY_MATRIX = '53d679c2-c4b0-46c0-b871-89ea3243543f'

@@ -106,12 +106,9 @@ async def cars_info(message: types.Message, state: FSMContext):
             if loc == -1:
                 await message.reply("Ошибка ввода, попробуйте еще раз\n\nНет такого грузовика")
             else:
-                # print(loc)
-                depot_time = datetime.datetime.now().strftime('%H:%M')
                 payload = {int(id_text): {
-                    'depot': {'id': 0, 'time_window': depot_time + '-23:59',
-                              'point': {'lat': 55.733777, 'lon': 37.588118}},
-                    'locations': loc,
+                    'depot': loc[0],
+                    'locations': loc[1::],
                     'vehicle': {'id': 0},
                     'options': {'time_zone': 3}
                 }}
@@ -170,11 +167,9 @@ async def send_routs():
             if loc == -1:
                 pass
             else:
-                depot_time = datetime.datetime.now().strftime('%H:%M')
                 payload = {tr_id[0]: {
-                    'depot': {'id': 0, 'time_window': depot_time + '-23:59',
-                              'point': {'lat': 55.733777, 'lon': 37.588118}},
-                    'locations': loc,
+                    'depot': loc[0],
+                    'locations': loc[1::],
                     'vehicle': {'id': 0},
                     'options': {'time_zone': 3}
                 }}

@@ -22,7 +22,7 @@ bot_send_rout_to_driver = Bot(token='5074289027:AAE0yMryVaA2ngwAX8FumIUn9PZ0xenI
 
 # Список id Администраторов
 ADMINS_ID = [383367365]
-path_main_db = os.path.join(os.path.expanduser('~'), 'Track_solver', 'src', 'main_data.db')
+path_main_db = os.path.join(os.path.expanduser('~'), 'rare_tg_bot', 'src', 'main_data.db')
 
 # Создаем бд если ее нет
 sql_command("""CREATE TABLE IF NOT EXISTS main_users_data(

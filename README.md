@@ -42,7 +42,7 @@
 <p>Изображения для теста лежат в папке homeless_animals</p>
 <p>Базовая модель для детекции наркокурьеров доступна по адресу: https://colab.research.google.com/drive/1sRZrCS6ZBz1BA3t2fy1AWPLYexQyuyjX?usp=sharing</p>
 <p>Изображения для теста лежат в папке narcos</p>
-<p>Базовая модель для детекции свободных парковочных местдоступна по адресу: https://colab.research.google.com/drive/1wYecQ0cWdM4TW6kjJxVoMUjDWojmPsIY?usp=sharing</p>
+<p>Базовая модель для детекции свободных парковочных мест доступна по адресу: https://colab.research.google.com/drive/1wYecQ0cWdM4TW6kjJxVoMUjDWojmPsIY?usp=sharing</p>
 <p>Полученные веса модели находятся на гугл драйве https://drive.google.com/drive/folders/1cgtRn0gYOUneUxNt8xFKR9BcqymoGJNH?usp=sharing </p>
 <p>Данные для обучения лежат в папке parklot, но так же они могут быть загружены кодом, внутри модуля</p>
 
